@@ -1,0 +1,379 @@
+<!-- ==========================================
+     CONTACTO
+========================================== -->
+
+<section id="contacto" class="section contact-section">
+
+    <div class="container">
+
+        <div class="section-title center">
+
+            <span>
+
+                Contáctanos
+
+            </span>
+
+            <h2>
+
+                Queremos escucharte
+
+            </h2>
+
+            <p>
+
+                Si deseas colaborar con este proyecto, compartir
+                información o resolver alguna duda, puedes escribirnos
+                mediante el siguiente formulario.
+
+            </p>
+
+        </div>
+
+        <!-- FORMULARIO COMPATIBLE CON NETLIFY -->
+
+        <form
+            name="contacto"
+            method="POST"
+            data-netlify="true"
+            class="contact-form">
+
+            <input
+                type="hidden"
+                name="form-name"
+                value="contacto">
+
+            <div class="input-group">
+
+                <label>
+
+                    Nombre
+
+                </label>
+
+                <input
+                    type="text"
+                    name="nombre"
+                    required>
+
+            </div>
+
+            <div class="input-group">
+
+                <label>
+
+                    Correo electrónico
+
+                </label>
+
+                <input
+                    type="email"
+                    name="correo"
+                    required>
+
+            </div>
+
+            <div class="input-group">
+
+                <label>
+
+                    Asunto
+
+                </label>
+
+                <input
+                    type="text"
+                    name="asunto">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>
+
+                    Mensaje
+
+                </label>
+
+                <textarea
+                    name="mensaje"
+                    rows="6"
+                    required>
+
+                </textarea>
+
+            </div>
+
+            <button
+                type="submit"
+                class="btn-primary">
+
+                Enviar Mensaje
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+     FOOTER
+========================================== -->
+
+<footer>
+
+<div class="container">
+
+<div class="footer-grid">
+
+<!-- LOGO -->
+
+<div>
+
+<img
+src="assets/logo/logo.png"
+alt="Logo"
+class="footer-logo">
+
+<h3>
+
+Voces Sin Barreras
+
+</h3>
+
+<p>
+
+Proyecto educativo desarrollado para promover
+la inclusión de la comunidad sorda mediante
+la tecnología y la educación.
+
+</p>
+
+</div>
+
+<!-- ENLACES -->
+
+<div>
+
+<h3>
+
+Navegación
+
+</h3>
+
+<ul>
+
+<li>
+
+<a href="#inicio">
+
+Inicio
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#comunidad">
+
+Comunidad
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#blog">
+
+Blog
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#videos">
+
+Videos
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#contacto">
+
+Contacto
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+<!-- RECURSOS -->
+
+<div>
+
+<h3>
+
+Recursos
+
+</h3>
+
+<ul>
+
+<li>
+
+<a href="#">
+
+Guías
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#">
+
+Tutoriales
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#">
+
+Noticias
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#">
+
+Eventos
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+<!-- REDES -->
+
+<div>
+
+<h3>
+
+Síguenos
+
+</h3>
+
+<div class="social-icons">
+
+<a href="#">
+
+<i class="fab fa-facebook-f"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-instagram"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-youtube"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-linkedin-in"></i>
+
+</a>
+
+</div>
+
+<p>
+
+Correo:
+
+info@vocessinbarreras.com
+
+</p>
+
+</div>
+
+</div>
+
+<hr>
+
+<div class="copyright">
+
+<p>
+
+© 2026 Voces Sin Barreras.
+
+Todos los derechos reservados.
+
+</p>
+
+<p>
+
+Desarrollado por
+<strong>
+
+Juan Camilo Vásquez Romero
+
+</strong>
+
+como proyecto del SENA.
+
+</p>
+
+</div>
+
+</div>
+
+</footer>
+
+<!-- ==========================================
+     SCRIPTS
+========================================== -->
+
+<script src="js/posts.js"></script>
+
+<script src="js/menu.js"></script>
+
+<script src="js/darkmode.js"></script>
+
+<script src="js/search.js"></script>
+
+<script src="js/gallery.js"></script>
+
+<script src="js/slider.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
