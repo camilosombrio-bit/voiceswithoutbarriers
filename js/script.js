@@ -165,3 +165,44 @@ const year = document.getElementById("year");
 if (year) {
     year.textContent = new Date().getFullYear();
 }
+/*======================================
+
+BOTÓN MODO OSCURO
+
+=======================================*/
+
+.btn-icon{
+
+width:45px;
+
+height:45px;
+
+border:none;
+
+border-radius:50%;
+
+background:var(--primary);
+
+color:white;
+
+cursor:pointer;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:1.1rem;
+
+transition:.35s;
+
+}
+
+.btn-icon:hover{
+
+transform:rotate(180deg);
+
+background:var(--secondary);
+
+}
